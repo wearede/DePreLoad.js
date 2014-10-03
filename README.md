@@ -1,4 +1,4 @@
-DEload.js
+DEPreLoad.js
 =========
 
 Include this in your page in `<head>`, or before `</body>`:
