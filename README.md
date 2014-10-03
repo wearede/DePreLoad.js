@@ -12,14 +12,9 @@ Initialize the plugin within document ready function:
 
 ```javascript
 $(document).ready(function() {
-
-	var loader = $("body").DELoad({
-	OnStep: function(percent) {
-		console.dir(percent);
-	},
-	OnComplete: function() {
-		console.dir('Done');
-	}
-		
-}
+    var loader = $("body").DEPreLoad({
+        OnStep: function(percent) {},
+        OnComplete: function() {}
+    });
+});
 ```
