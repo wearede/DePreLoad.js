@@ -22,6 +22,7 @@ html, body, #depreload {
     background-color: #ccc;
     position: fixed;
     text-align: center;
+    z-index: 99;
 }
 
 #depreload .circle {
@@ -73,4 +74,11 @@ html, body, #depreload {
 	margin-left: -69px;
 	margin-top: -72px;
 	opacity: 0;
+}
+
+.gallery {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
 }
